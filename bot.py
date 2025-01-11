@@ -395,6 +395,9 @@ if __name__ == "__main__":
     application.run_polling()
 
 if __name__ == "__main__":
+    # Start the Flask server in a separate process
     flask_process = Process(target=start_flask)
     flask_process.start()
+
+    # Start the Telegram bot
     run_bot()
