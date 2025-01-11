@@ -141,12 +141,15 @@ async def prediction(update: Update, context: ContextTypes.DEFAULT_TYPE):
     last_5_digits = period_code[-5:]
     prediction = random.choice(["BIG", "SMALL"])
 
-    message = (
-        f"❤️🔥 <b>Prediction:</b>\n\n"
-        f"🕹 <b>Game:</b> Wingo 1 Min\n\n"
-        f"📟 <b>Period Number:</b> {period_code}\n\n"
-        f"🎰 <b>Prediction:</b> 🍤 {prediction} 🍤\n\n"
-        f"Last 5 Digits: <b>{last_5_digits}</b>\n\n"
+  message = (
+    f"❤️🔥 <b>Prediction:</b>\n\n"
+    f"🕹 <b>Game:</b> Wingo 1 Min\n\n"
+    f"📟 <b>Period Number:</b> {period_code}\n\n"
+    f"🎰 <b>Prediction:</b> 🍤 {prediction} 🍤\n\n"
+    f"Last 5 Digits: <b>{last_5_digits}</b>\n\n"
+    f"<b>STATUS:</b> WAITING FOR RESULT\n\n"
+    f"✅ Make your own bot DM: @TANMAYPAUL21"
+)
 import logging
 import random
 import time
