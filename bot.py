@@ -382,7 +382,7 @@ def run_bot():
 if __name__ == "__main__":
     flask_process = Process(target=start_flask)
     flask_process.start()
-    run_bot()start", start))
+    run_bot()
     application.add_handler(CommandHandler("prediction", prediction))
     application.add_handler(CommandHandler("post", post))
     application.add_handler(CommandHandler("stop", stop))
