@@ -104,6 +104,7 @@ async def send_prediction():
                     f"🕹 <b>Game:</b> Wingo 1 Min\n\n"
                     f"📟 <b>Period Number:</b> {period_code}\n\n"
                     f"🎰 <b>Prediction:</b> 🍤 {prediction} 🍤\n\n"
+                    f"🦐@TANMAYPAUL21\n\n"
                     f"Last 5 Digits: <b>{last_5_digits}</b>\n\n"
                     f"<b>STATUS:</b> WAITING FOR RESULT\n\n"
                     f"✅ Make your own bot DM: @TANMAYPAUL21"
@@ -142,6 +143,7 @@ async def send_prediction():
                     f"📟 <b>Period Number:</b> {period_code}\n\n"
                     f"🎰 <b>Prediction:</b> 🍤 {prediction} 🍤\n\n"
                     f"Last 5 Digits: <b>{last_5_digits}</b>\n\n"
+                    f"🦐@TANMAYPAUL21\n\n"
                     f"<b>STATUS:</b> {final_status}\n\n"
                     f"✅ Make your own bot DM: @TANMAYPAUL21"
                 )
